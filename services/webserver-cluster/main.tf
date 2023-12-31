@@ -8,7 +8,7 @@ terraform {
   }
 }
 
-
+## changes for  v0.0.2
 resource "aws_launch_configuration" "example" {
   image_id        = "ami-0e89f30b18d76249a"
   instance_type   = var.instance_type
